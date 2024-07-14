@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+	line-height: 1.5;
+	font-size: 24px;
+	font-family: Castoro, sans-serif;
+	color: #000000;
+
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+.container {
+	width: 1296px;
+	margin: 0 auto;
+}
+
+.w-636 {
+	width: 636px;
+}
+
+.right {
+	margin-left: auto;
+}
+
+.mb-2 {
+	margin-bottom: 8px;
+}
+.mb-3 {
+	margin-bottom: 12px;
+}
+.mb-4 {
+	margin-bottom: 16px;
+}
+.mb-5 {
+	margin-bottom: 20px;
+}
+
+.mb-10 {
+	margin-bottom: 40px;
+}
+
+.mb-20 {
+	margin-bottom: 80px;
+}
+
+.mb-40 {
+	margin-bottom: 160px;
+}
+
+.mr-10 {
+	margin-right: 40px;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.header {
+	margin-top: 160px;
+}
+
+.title {
+	font-size: 128px;
+	letter-spacing: 1.2rem;
+}
+
+.desc {
+	background: #EFEFEF;
+}
+
+.contant {
+	font-size: 32px;
+	padding-top: 48px;
+	padding-bottom: 48px;
+}
+
+.info a:hover {
+	color: #AE0000;
+}
+
+.h3 {
+	font-size: 40px;
+	color: #AE0000;
+	border-bottom: 3px solid #AE0000;
+}
+
+.date {
+	color: #949494;
+	font-style: italic;
+}
+
+.footer {
+	background: #000000;
+}
+
+.social-list {
+	display: block;
+	margin: 0 auto;
+}
+
+.footer ul {
+	text-align: center;
+	padding-top: 64px;
+	padding-bottom: 64px;
+}
+
+.footer ul li {
+	display: inline-block;
+}
