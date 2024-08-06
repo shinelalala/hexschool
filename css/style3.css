@@ -90,6 +90,12 @@ a {
     padding: 0 12px;
 }
 
+@media (max-width:992px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
 @media (max-width:767px) {
     .container {
         max-width: 372px;
@@ -162,7 +168,7 @@ a {
 }
 
 
-/* bannr */
+/* banner */
 .banner {
     color: #650300;
     height: 787px;
@@ -200,9 +206,8 @@ a {
 }
 
 
-@media (max-width:767px) {
+@media (max-width:992px) {
     .banner {
-        height: 396px;
         background: url('https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header-sm.png?raw=true') no-repeat top;
         background-size: cover;
     }
@@ -214,6 +219,12 @@ a {
         font-size: 24px;
     }
 }
+@media (max-width:767px) {
+    .banner {
+        height: 396px;
+    }
+}
+
 
 /* major */
 .major {
@@ -286,12 +297,18 @@ a {
     flex-direction: column;
     align-items: center;
 }
-@media (max-width:767px) {
+.major-img {
+    width: 83.33px;
+}
+.major-img-last {
+    width: 100px;
+}
+@media (max-width:992px) {
     .major .column {
         width: 50%;
     }
 }
-@media (max-width:576px) {
+@media (max-width:767px) {
     .major .column {
         width: 100%;
     }
@@ -351,6 +368,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-style: italic;
 }
 .classic img {
     margin-bottom: 8px;
@@ -455,6 +473,7 @@ a {
     font-weight: bold;
     margin-bottom: 48px;
 }
+
 .customer-name {
     font-weight: medium;
 }
@@ -477,7 +496,6 @@ a {
 }
 .customer .card {
     height: 511px;
-    padding: 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -489,19 +507,25 @@ a {
     height: 100%;
     display: flex;
     flex-direction: column;
+    padding: 16px;
 }
 .customer-date {
     color: #707070;
     margin-top: auto;
 }
 
+@media (max-width:992px) {
+    .customer .column {
+        width: 50%;
+        margin-bottom: 16px;
+    }
+}
+
+
 @media (max-width:767px) {
     .customer .column {
         width: 100%;
         margin-bottom: 16px;
-    }
-    .customer .card {
-        border-radius: 4px 4px 4px 4px;
     }
 }
 
